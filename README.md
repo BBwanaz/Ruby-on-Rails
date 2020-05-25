@@ -1,24 +1,16 @@
-# README
+# Practice Repository for my ruby on rails course
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+> After this course I will begin my summer project to build an online learning platform. More info to come
 
-Things you may want to cover:
+## Example Code that I have learnt so far (For Fun)
 
-* Ruby version
+``` ruby
+    10.times do |item|
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+	Portfolio.create!(
+		title: "Portfolio #{item}",
+		body:  "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+		image: "https://via.placeholder.com/150"
+		)
+end
+```
