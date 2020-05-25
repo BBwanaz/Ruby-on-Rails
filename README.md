@@ -14,3 +14,4 @@
 		)
 end
 ```
+This code is in my seeds file. It initialized 10 dummy portfolio items that I am working with as I learn about resources.
