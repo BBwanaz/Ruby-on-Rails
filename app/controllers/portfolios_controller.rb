@@ -5,4 +5,7 @@ class PortfoliosController < ApplicationController
 	end
 	def create
 	end
+	def show
+		@var = Portfolio.find(params[:id])
+	end
 end
