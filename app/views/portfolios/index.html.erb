@@ -1,9 +1,8 @@
 <h1> Portfolios </h1>
 
 <% @var.each do |i| %>
-<p><h3><%= i.title %> </h3></p>
+<p><h3><%= link_to "#{i.title}", i%> </h3></p>
 <p><%= i.body %> </p>
 <%= image_tag i.image %>
-<p><%= link_to "show", i%></p>
 <hr>
 <% end %>
